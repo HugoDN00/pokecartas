@@ -1,4 +1,10 @@
 /* Aquí va el CSS */
+body{
+    background-image: url(./img/pokemonFondoBola.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 /*001*/
 h2{
     font-size: 18px;
@@ -41,7 +47,7 @@ h2{
 }
 /*010*/
 .imagen{
-    width: 200px;
+    width: 250px;
     position: absolute;
     z-index: 1;
 }
