@@ -80,3 +80,8 @@ h2{
 .pikachu{
     background-color: rgb(169, 177, 7);
 }
+@media screen and (max-width:600px) {
+    .contenedor{
+        flex-direction: column;
+    }
+}
